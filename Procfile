@@ -1,1 +1,1 @@
-worker: python law2.py
+web: gunicorn law2:app
